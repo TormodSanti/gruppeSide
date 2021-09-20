@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(255, 198, 198);
+  background-color: rgb(228, 188, 188);
 }
 
 .nav {
@@ -28,4 +28,20 @@ body {
 .nav a:hover {
   background-color: black;
   color: white;
+}
+
+.main-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mirdit,
+.andreas,
+.ali,
+.tormod {
+  border: 2px dotted black;
+  margin: 5px;
 }
