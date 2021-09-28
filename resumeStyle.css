@@ -71,8 +71,11 @@ body {
   list-style-type: none;
 }
 
-.res-mirdit {
-  /* display: none; */
+.res-mirdit,
+.res-andreas,
+.res-ali,
+.res.tormod {
+  display: none;
   width: 80%;
 }
 
