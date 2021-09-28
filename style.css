@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align:center;
 }
 
 body {
-  background-color: rgb(228, 188, 188);
+  background-color: #5B84B1FF;
 }
 
 .nav {
@@ -38,10 +39,74 @@ body {
   align-items: center;
 }
 
-.mirdit,
-.andreas,
-.ali,
-.tormod {
-  border: 2px dotted black;
+.person-container {
+  width:100%;
+  text-align:center;
+  vertical-align: middle;
+  justify-content: space-around;
+  align-items: center;
+}
+.person {
+  border: solid;
+  background:whitesmoke;
   margin: 5px;
+  padding: 1rem;
+  width: 20%;
+  vertical-align:top;
+  text-align:left;
+  display:inline-block;
+  
+}
+.person>article>figure {
+  text-align:center;
+  padding: 0.7rem;
+}
+.person>article>h2 {
+  text-align:center;
+}
+
+.personalImage {
+  max-width:100%;
+  width:100%;
+}
+blockquote {
+  font-style: italic;
+  padding: 1rem;
+}
+
+.main-heading {
+  padding: 60px;
+  background: whitesmoke;
+  color: black;
+  font-size: 30px;
+  border-bottom: solid;
+}
+.ekstra-margin {
+  margin-top:50px;
+}
+
+#about-article {
+  padding-top:1em;
+  padding-bottom:1em;
+  border-top: solid;
+  border-bottom: solid;
+  background: whitesmoke;
+  padding-left:20%;
+  padding-right:20%;
+
+}
+
+section {
+  padding-top:1em;
+  padding-bottom:1em;
+  border-top: solid;
+  border-bottom: solid;
+  background: whitesmoke;
+  padding-left:20%;
+  padding-right:20%;
+}
+
+p {
+  margin:3px;
+  text-align:left;
 }
