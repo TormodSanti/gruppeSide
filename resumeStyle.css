@@ -9,13 +9,20 @@
 
 body {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  position: relative;
+  min-height: 100vh;
 }
 
 .folks {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 5px solid black;
+  border-bottom: 3px solid black;
 }
 
 .folks h3 {
@@ -26,6 +33,14 @@ body {
   background-color: #5b84b1ff;
   cursor: pointer;
   width: 20%;
+}
+
+.member h3 {
+  font-size: 1.8rem;
+}
+
+.member p {
+  margin-bottom: 20px;
 }
 
 .mirdit,
@@ -44,10 +59,6 @@ body {
   margin-top: 30px;
   border-radius: 50%;
   border: 5px dashed white;
-}
-
-.member p {
-  margin-bottom: 20px;
 }
 
 /* RESUME TOGGLE STUFF */
@@ -112,9 +123,10 @@ body {
 
 .job-card,
 .skill-card,
-.edu-card {
+.edu-card,
+.hobby-card {
   background-color: rgb(255, 246, 246);
   padding: 10px;
   margin: 10px;
-  box-shadow: 1px 1px rgb(240, 149, 149);
+  box-shadow: 1px 1px rgb(248, 214, 214);
 }
