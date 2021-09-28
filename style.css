@@ -1,12 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+  font-family: "Inter", sans-serif;
 }
 
 body {
   background-color: #5b84b1ff;
+  font-family: "Inter", sans-serif;
 }
 
 .nav {
@@ -18,12 +22,15 @@ body {
   height: 6vh;
   border-bottom: 5px solid black;
   background-color: white;
+  font-family: "Inter", sans-serif;
 }
 
 .nav a {
   text-decoration: none;
-  color: rgb(15, 28, 148);
-  text-shadow: 1px 1px red;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: bolder;
+  text-shadow: 1px 1px rgb(45, 154, 197);
 }
 
 .nav a:hover {
@@ -67,6 +74,8 @@ body {
 .personalImage {
   max-width: 100%;
   width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 blockquote {
   font-style: italic;
@@ -74,10 +83,11 @@ blockquote {
 }
 
 .main-heading {
-  padding: 60px;
-  background: whitesmoke;
+  padding: 30px;
+  background: rgb(255, 196, 196);
   color: black;
   font-size: 30px;
+  font-weight: bolder;
   border-bottom: solid;
 }
 .ekstra-margin {
