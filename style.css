@@ -29,7 +29,7 @@ body {
   background-color: black;
   color: white;
 }
-
+/**
 .main-container {
   margin-top: 20px;
   display: flex;
@@ -37,11 +37,50 @@ body {
   justify-content: center;
   align-items: center;
 }
+**/
 
-.mirdit,
-.andreas,
-.ali,
-.tormod {
+
+
+main {
+  margin-top: 20px;
+  width: 100%;
+  vertical-align:middle;
+  align-items:center;
+}
+
+h1 {
+  text-align:center;
+}
+
+.person-container {
+  width:100%;
+  text-align:center;
+  vertical-align: middle;
+  justify-content: space-around;
+  align-items: center;
+}
+.person {
   border: 2px dotted black;
   margin: 5px;
+  padding: 1rem;
+  width: 20%;
+  vertical-align:top;
+  text-align:left;
+  display:inline-block;
+  
+}
+.person>article>figure {
+  text-align:center;
+  padding: 0.7rem;
+}
+.person>article>h2 {
+  text-align:center;
+}
+
+.personalImage {
+  width:100%;
+}
+blockquote {
+  font-style: italic;
+  padding: 1rem;
 }
