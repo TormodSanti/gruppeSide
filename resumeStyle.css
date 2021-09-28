@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.folks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.member {
+  background-color: rgb(68, 192, 241);
+  cursor: pointer;
+  width: 20%;
+}
+
+.mirdit,
+.andreas,
+.ali,
+.tormod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.folks img {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+
+.member p {
+  margin-bottom: 20px;
+}
+
+/* RESUME TOGGLE STUFF */
+
+.resume-container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  border: 2px solid black;
+  width: 100%;
+}
+
+.res-mirdit h3,
+.res-andreas h3,
+.res-ali h3,
+.res-tormod h3 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  font-size: 3rem;
+}
+
+.content h4 {
+  font-size: 1.5rem;
+}
+
+.content li {
+  list-style-type: none;
+}
+
+.res-mirdit,
+.res-andreas,
+.res-ali,
+.res.tormod {
+  display: none;
+  width: 80%;
+}
+
+.content {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(247, 239, 128);
+}
+
+.job-card,
+.skill-card,
+.edu-card {
+  background-color: rgb(255, 246, 246);
+  padding: 10px;
+  margin: 10px;
+}
