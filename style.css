@@ -70,6 +70,9 @@ body {
 .person > article > h2 {
   text-align: center;
 }
+figcaption {
+  font-style:italic;
+}
 
 .personalImage {
   max-width: 100%;
