@@ -88,7 +88,7 @@ body {
 .res-mirdit,
 .res-andreas,
 .res-ali,
-.res.tormod {
+.res-tormod {
   display: none;
   width: 80%;
 }
@@ -109,4 +109,5 @@ body {
   background-color: rgb(255, 246, 246);
   padding: 10px;
   margin: 10px;
+  box-shadow: 1px 1px rgb(240, 149, 149);
 }
