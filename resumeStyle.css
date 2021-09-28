@@ -37,6 +37,7 @@ body {
   height: 100px;
   margin-top: 30px;
   border-radius: 50%;
+  border: 5px dashed white;
 }
 
 .member p {
@@ -49,8 +50,8 @@ body {
   display: flex;
   margin: auto;
   justify-content: center;
-  border: 2px solid black;
   width: 100%;
+  margin-top: 40px;
 }
 
 .res-mirdit h3,
@@ -65,6 +66,19 @@ body {
 
 .content h4 {
   font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.content h5 {
+  font-size: 1.2rem;
+}
+
+.content h6 {
+  font-size: 0.8rem;
+}
+
+.content p {
+  font-size: 0.8rem;
 }
 
 .content li {
@@ -86,6 +100,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   background-color: rgb(247, 239, 128);
+  border-top: 5px solid black;
 }
 
 .job-card,
